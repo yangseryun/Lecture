@@ -8,8 +8,11 @@
     <link href="style.css" rel="stylesheet">
     <style>
         h1{color: #00f;/* 0000ff */
-        font-size: 10vh;}
-        p{font-size: 5vh;}
+        font-size: 10vh;
+        font-family: 'Times New Roman', Times, serif;}
+        p{font-size: 20px;
+        font-weight: bold;
+        line-height: 1.5;}
     </style>
 </head>
 <body>
@@ -35,5 +38,29 @@
     <p>vw(viewport width)는 화면의 가로 크기와 관련 있는 단위입니다. 1vw는 화면 가로 크기의 1/100입니다.</p>
     <h1>vh</h1>
     <p>vh(viewport height)는 화면의 세로 크기와 관련 있는 단위입니다. 1vw는 화면 가로 크기의 1/100입니다.</p>
+
+    <h1>font-size</h1>
+    <p>텍스트(=글자) 크기를 조정하기 위해서 사용하는 CSS 속성입니다.</p>
+
+    <h1>color</h1>
+    <p>텍스트(=글자) 색상을 변경하기 위해서 사용하는 CSS 속성입니다.</p>
+
+    <h1>font-weight</h1>
+    <p>텍스트(=글자) 글꼴을 변경하기 위해서 사용하는 CSS 속성입니다.</p>
+
+    <h1>line-height</h1>
+    <p>텍스트(=글자) 글자 높이를 변경하기 위해서 사용하는 CSS 속성입니다.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facere vitae, cumque, corrupti provident hic vel natus similique sunt eius eum architecto unde? Nostrum, ipsum. Esse incidunt tempora omnis quos odio?</p>
+
+    
+    <a href="http://google.com" target="_blank">
+        <img src="/우산.png" alt="우산이미지" width="200">
+    구글</a>
+
+    <img src="/우산.png" alt="우산이미지" width="200" usemap="#google">
+    <map name="google">
+        <area shape="rect" coords="0,0,272,92" href="http://google.com" target="_blank" alt="구글 홈페이지 이동 링크">
+        <area shape="circle" coords="136,46,46" href="http://google.com" alt="">
+    </map>
 </body>
 </html>
